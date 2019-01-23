@@ -1,0 +1,19 @@
+{
+  "name": "create-next-example-app",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "set NODE_ENV=prod&&node server.js"
+  },
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "axios": "^0.18.0",
+    "babel-polyfill": "^6.26.0",
+    "compression": "^1.7.3",
+    "express": "^4.16.4",
+    "next": "^7.0.2",
+    "react": "^16.7.0",
+    "react-bootstrap": "^1.0.0-beta.3",
+    "react-dom": "^16.7.0"
+  }
+}
